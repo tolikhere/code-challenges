@@ -4,7 +4,6 @@
  * @param {...any} args - All arguments to be passed to the callback
  * @returns {void}
  */
-
 export const assertEquals = (expected, callback, ...args) => {
   const result = callback(...args);
 
