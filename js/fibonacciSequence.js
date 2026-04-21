@@ -16,30 +16,24 @@ the length of the sequence, return an array containing the sequence of the given
 */
 
 /******** MY SOLUTION ********/
-
-function fibonacciSequence(startSequence, length) {
+/**
+ * Handles the Fibonacci sequence of any length greater than or equal to zero.
+ * If the length is zero, return an empty array.
+ * Note that the starting two numbers are part of the sequence.
+ * @param {number[]} startSequence - An array containing the first two numbers of a Fibonacci sequence
+ * @param {number} length - An integer representing the length of the sequence
+ * @returns {number[]} - Return an array containing the sequence of the given length
+ */
+export function fibonacciSequence(startSequence, length) {
   if (length === 0) return [];
   const result = [...startSequence];
 
-  for (let i = 0; i < length; i++) {
+  for (let i = result.length; i < length; i++) {
     result.push(result.at(-2) + result.at(-1));
   }
 
   return result.slice(0, length);
 }
-
-// Tests
-console.log(
-  fibonacciSequence([0, 1], 20),
-  "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181]",
-);
-console.log(fibonacciSequence([21, 32], 1), "[21]");
-console.log(fibonacciSequence([0, 1], 0), "[]");
-console.log(fibonacciSequence([10, 20], 2), "[10, 20]");
-console.log(
-  fibonacciSequence([123456789, 987654321], 5),
-  "[123456789, 987654321, 1111111110, 2098765431, 3209876541]",
-);
 
 /* AI review to my code */
 
