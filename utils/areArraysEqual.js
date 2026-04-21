@@ -4,7 +4,7 @@
  * @param {any[]} actual - The actual array to test against
  * @returns {Boolean}
  */
-const areArraysEqual = (expected, actual) => {
+export const areArraysEqual = (expected, actual) => {
   return (
     expected.length === actual.length &&
     expected.every((expVal, i) => {
