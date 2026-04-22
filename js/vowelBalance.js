@@ -12,11 +12,11 @@ Given a string, determine whether the number of vowels in the first half of the 
 
 /******** MY SOLUTION ********/
 /**
- * Determine whether the number of vowels in the first half of the string is equal to the number of vowels in the second half.
+ * Determines whether the number of vowels in the first half of the string is equal to the number of vowels in the second half.
  * The letters a, e, i, o, and u, in either uppercase or lowercase, are considered vowels.
  * If there's an odd number of characters in the string, ignores the center character.
  * @param {string} s - The string can contain any characters.
- * @returns {boolean} Return true if string is balanced and false if not
+ * @returns {boolean} Returns true if string is balanced and false if not.
  */
 export function isBalanced(s) {
   const middle = Math.floor(s.length / 2);
@@ -32,7 +32,7 @@ export function isBalanced(s) {
  * It uses regular expression to find matches.
  * @param {string} s - String can contain any characters.
  * @param {RegExp} regex - Regular expression must have the global ('g') flag.
- * @returns {number} Return the number of matches.
+ * @returns {number} Returns the number of matches.
  */
 function getMatchCount(s, regex) {
   // toArray() on Iterators is a very new JavaScript feature Node.js (v22+).

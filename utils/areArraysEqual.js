@@ -1,8 +1,8 @@
 /**
- * Check equality of arrays by using recursion
- * @param {any[]} expected - The expected array to test against
- * @param {any[]} actual - The actual array to test against
- * @returns {Boolean}
+ * Checks equality of arrays by using recursion.
+ * @param {any[]} expected - The expected array to test against.
+ * @param {any[]} actual - The actual array to test against.
+ * @returns {Boolean} Returns true if arrays are equal or false if not.
  */
 export const areArraysEqual = (expected, actual) => {
   return (

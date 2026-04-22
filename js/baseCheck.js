@@ -18,7 +18,13 @@ Given a string representing a number, and an integer base from 2 to 36, determin
 */
 
 /******** MY SOLUTION ********/
-
+/**
+ * The function takes string representing a number, and an integer base from 2 to 36.
+ * Determines whether the number is valid in that base.
+ * @param {string} n - The string may contain integers, and uppercase or lowercase characters.
+ * @param {number} base - The base can be any number 2-36.
+ * @returns {boolean} Returns true if the number is valid in that base and false if not.
+ */
 export function isValidNumber(n, base) {
   const baseChar = "0123456789abcdefghijklmnopqrstuvwxyz";
   const searchBase = baseChar.slice(0, base);

@@ -20,9 +20,9 @@ the length of the sequence, return an array containing the sequence of the given
  * Handles the Fibonacci sequence of any length greater than or equal to zero.
  * If the length is zero, return an empty array.
  * Note that the starting two numbers are part of the sequence.
- * @param {number[]} startSequence - An array containing the first two numbers of a Fibonacci sequence
- * @param {number} length - An integer representing the length of the sequence
- * @returns {number[]} - Return an array containing the sequence of the given length
+ * @param {number[]} startSequence - An array containing the first two numbers of a Fibonacci sequence.
+ * @param {number} length - An integer representing the length of the sequence.
+ * @returns {number[]} Returns an array containing the sequence of the given length.
  */
 export function fibonacciSequence(startSequence, length) {
   if (length === 0) return [];
