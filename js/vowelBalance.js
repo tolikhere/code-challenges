@@ -11,30 +11,34 @@ Given a string, determine whether the number of vowels in the first half of the 
 */
 
 /******** MY SOLUTION ********/
-
-function isBalanced(s) {
-  let middle = Math.floor(s.length / 2);
+/**
+ * Determine whether the number of vowels in the first half of the string is equal to the number of vowels in the second half.
+ * The letters a, e, i, o, and u, in either uppercase or lowercase, are considered vowels.
+ * If there's an odd number of characters in the string, ignores the center character.
+ * @param {string} s - The string can contain any characters.
+ * @returns {boolean} Return true if string is balanced and false if not
+ */
+export function isBalanced(s) {
+  const middle = Math.floor(s.length / 2);
   const regex = /[aeiou]/gi;
   const firstHalf = s.slice(0, middle);
-  if (s.length % 2 != 0) {
-    // Ignore middle character for odd-length strings
-    middle += 1;
-  }
-  const secondHalf = s.slice(middle);
+  const secondHalf = s.slice(-middle);
 
   return getMatchCount(firstHalf, regex) === getMatchCount(secondHalf, regex);
 }
 
+/**
+ * Counts how many matches the string have.
+ * It uses regular expression to find matches.
+ * @param {string} s - String can contain any characters.
+ * @param {RegExp} regex - Regular expression must have the global ('g') flag.
+ * @returns {number} Return the number of matches.
+ */
 function getMatchCount(s, regex) {
+  // toArray() on Iterators is a very new JavaScript feature Node.js (v22+).
+  // On older systems, use the spread operator: [...s.matchAll(regex)].length
   return s.matchAll(regex).toArray().length;
 }
-
-console.log(isBalanced("racecar"), true);
-console.log(isBalanced("Lorem Ipsum"), true);
-console.log(isBalanced("string"), false);
-console.log(isBalanced(" "), true);
-console.log(isBalanced("abcdefghijklmnopqrstuvwxyz"), false);
-console.log(isBalanced("123A#b!E&*456-o.U"), true);
 
 /* AI review to my code */
 // What’s great about your code:
