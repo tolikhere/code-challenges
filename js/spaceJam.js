@@ -37,7 +37,7 @@ For very large strings, creating that intermediate array can be memory-intensive
 You can achieve the same result in a single pass using a regex with a "lookahead" or a replacement function. 
 This avoids turning the string into an array entirely:
 */
-function spaceJam(s) {
+function spaceJam1(s) {
   return s
     .replace(/\s+/g, "") // Remove all whitespace
     .toUpperCase() // Normalize to uppercase
@@ -52,7 +52,7 @@ Note: (.)(?=.) matches any character that is followed by another character, ensu
 If you enjoy concise code, you can use Spread Syntax [...] instead of .split(""). 
 It’s syntactically sugar, but many developers prefer it for its brevity:
 */
-const spaceJam = (s) => [...s.replace(/\s+/g, "").toUpperCase()].join("  ");
+const spaceJam2 = (s) => [...s.replace(/\s+/g, "").toUpperCase()].join("  ");
 
 /*
 Which is actually "better"?
