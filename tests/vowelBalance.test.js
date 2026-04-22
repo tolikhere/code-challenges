@@ -12,7 +12,7 @@ const testData = [
 ];
 
 logGroup(
-  "Challenge name: Vowel Balance\nTesting file name: vowelBalance.js",
+  "Challenge name: Vowel Balance",
   () =>
     testData.forEach((test) => {
       assertEquals(test.expected, isBalanced, test.arg);

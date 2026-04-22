@@ -13,6 +13,6 @@ const testData = [
   { expected: "A  L  L  Y  O  U  R  B  A  S  E", arg: "allyourbase" },
 ];
 
-logGroup("S  P  A  C  E  J  A  M", () => {
+logGroup("Challenge name: S  P  A  C  E  J  A  M", () => {
   testData.forEach((test) => assertEquals(test.expected, spaceJam, test.arg));
 });

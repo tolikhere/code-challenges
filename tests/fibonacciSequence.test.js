@@ -33,7 +33,7 @@ const testData = [
 ];
 
 logGroup(
-  "Challenge name: Fibonacci Sequence\nTesting file name: fibonacciSequence.js",
+  "Challenge name: Fibonacci Sequence",
   () => {
     testData.forEach((test) =>
       assertEquals(test.expected, fibonacciSequence, ...test.args),

@@ -79,7 +79,7 @@ const testData = [
   }, // String vs Number
 ];
 
-logGroup("Testing file name: areArrayEqual.js", () => {
+logGroup("Testing utility function: areArraysEqual", () => {
   testData.forEach((test) =>
     assertEquals(test.expected, areArraysEqual, ...test.args),
   );

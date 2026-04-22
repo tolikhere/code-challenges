@@ -21,7 +21,7 @@ const testData = [
   { expected: true, args: ["z", 36] },
 ];
 
-logGroup("Base Check", () => {
+logGroup("Challenge name: Base Check", () => {
   testData.forEach((test) =>
     assertEquals(test.expected, isValidNumber, ...test.args),
   );
