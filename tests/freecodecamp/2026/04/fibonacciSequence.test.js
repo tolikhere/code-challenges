@@ -1,6 +1,6 @@
-import { fibonacciSequence } from "../js/fibonacciSequence.js";
-import { assertEquals } from "../utils/assertEquals.js";
-import { logGroup } from "../utils/logGroup.js";
+import { fibonacciSequence } from "../../../../js/freecodecamp/2026/04/fibonacciSequence.js";
+import { assertEquals } from "../../../../utils/assertEquals.js";
+import { logGroup } from "../../../../utils/logGroup.js";
 
 const testData = [
   {

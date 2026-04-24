@@ -1,6 +1,6 @@
-import { isValidNumber } from "../js/baseCheck.js";
-import { assertEquals } from "../utils/assertEquals.js";
-import { logGroup } from "../utils/logGroup.js";
+import { isValidNumber } from "../../../../js/freecodecamp/2026/04/baseCheck.js";
+import { assertEquals } from "../../../../utils/assertEquals.js";
+import { logGroup } from "../../../../utils/logGroup.js";
 
 const testData = [
   { expected: true, args: ["10101", 2] },
