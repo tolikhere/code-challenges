@@ -15,7 +15,7 @@ export const assertEquals = (expected, callback, ...args) => {
   const isPass =
     Array.isArray(expected) && Array.isArray(result)
       ? areArraysEqual(expected, result)
-      : result === expected;
+      : Object.is(result, expected);
 
   if (isPass) {
     console.log("✅ PASS");

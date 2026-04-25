@@ -12,7 +12,7 @@ export const areArraysEqual = (expected, actual) => {
         return areArraysEqual(expVal, actual[i]);
       }
 
-      return expVal === actual[i];
+      return Object.is(expVal, actual[i]);
     })
   );
 };
