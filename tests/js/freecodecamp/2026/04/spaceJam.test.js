@@ -1,6 +1,6 @@
-import { spaceJam } from "../../../../js/freecodecamp/2026/04/spaceJam.js";
-import { assertEquals } from "../../../../utils/assertEquals.js";
-import { logGroup } from "../../../../utils/logGroup.js";
+import { spaceJam } from "../../../../../js/freecodecamp/2026/04/spaceJam.js";
+import { assertEquals } from "../../../../../utils/assertEquals.js";
+import { logGroup } from "../../../../../utils/logGroup.js";
 
 const testData = [
   { expected: "F  R  E  E  C  O  D  E  C  A  M  P", arg: "freeCodeCamp" },

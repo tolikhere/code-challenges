@@ -1,6 +1,6 @@
-import { areArraysEqual } from "../utils/areArraysEqual.js";
-import { assertEquals } from "../utils/assertEquals.js";
-import { logGroup } from "../utils/logGroup.js";
+import { areArraysEqual } from "../../utils/areArraysEqual.js";
+import { assertEquals } from "../../utils/assertEquals.js";
+import { logGroup } from "../../utils/logGroup.js";
 
 const testData = [
   // 1. Basic empty cases

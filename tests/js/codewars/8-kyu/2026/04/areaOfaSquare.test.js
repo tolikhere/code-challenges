@@ -1,6 +1,6 @@
-import { squareArea } from "../../../../../js/codewars/8-kyu/2026/04/areaOfaSquare.js";
-import { assertEquals } from "../../../../../utils/assertEquals.js";
-import { logGroup } from "../../../../../utils/logGroup.js";
+import { squareArea } from "../../../../../../js/codewars/8-kyu/2026/04/areaOfaSquare.js";
+import { assertEquals } from "../../../../../../utils/assertEquals.js";
+import { logGroup } from "../../../../../../utils/logGroup.js";
 
 const testData = [
   { expected: 1.6211389382774046, arg: 2 },

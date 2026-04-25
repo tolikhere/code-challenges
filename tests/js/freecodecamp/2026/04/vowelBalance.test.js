@@ -1,6 +1,6 @@
-import { isBalanced } from "../../../../js/freecodecamp/2026/04/vowelBalance.js";
-import { assertEquals } from "../../../../utils/assertEquals.js";
-import { logGroup } from "../../../../utils/logGroup.js";
+import { isBalanced } from "../../../../../js/freecodecamp/2026/04/vowelBalance.js";
+import { assertEquals } from "../../../../../utils/assertEquals.js";
+import { logGroup } from "../../../../../utils/logGroup.js";
 
 const testData = [
   { expected: true, arg: "racecar" },

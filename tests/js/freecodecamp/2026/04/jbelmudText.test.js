@@ -1,6 +1,6 @@
-import { jbelmu } from "../../../../js/freecodecamp/2026/04/jbelmudText.js";
-import { assertEquals } from "../../../../utils/assertEquals.js";
-import { logGroup } from "../../../../utils/logGroup.js";
+import { jbelmu } from "../../../../../js/freecodecamp/2026/04/jbelmudText.js";
+import { assertEquals } from "../../../../../utils/assertEquals.js";
+import { logGroup } from "../../../../../utils/logGroup.js";
 
 const testData = [
   { expected: "hello wlord", arg: "hello world" },
