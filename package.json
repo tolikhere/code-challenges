@@ -1,0 +1,16 @@
+{
+  "name": "code-challenges",
+  "version": "1.0.0",
+  "description": "Daily code challenges solved with a test-driven approach. Features a custom-built assertion engine and Bash-based automation for standardized file generation and testing. 100% dependency-free",
+  "type": "module",
+  "author": "Anatoliy Pavlenko",
+  "license": "MIT",
+  "imports": {
+    "#utils/*": "./utils/*",
+    "#js/*": "./js/*"
+  },
+  "scripts": {
+    "test": "./bin/run-tests.sh",
+    "new": "./bin/new-challenge.sh"
+  }
+}
