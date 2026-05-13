@@ -3,7 +3,7 @@
 ## ✨ What’s great about your solution:
 
 * **Readability:** It’s very easy to see exactly what the code is doing.
-* **Correctness:** It perfectly handles the case-insensitivity requirements via the 'i' flag.
+* **Correctness:** It perfectly handles the case-insensitivity requirements via the `i` flag.
 * **Leverages the String:** Using the baseChar string as a reference for slicing is much easier than doing math on ASCII codes.
 
 ## 🛠 Refactoring Tips:
@@ -50,9 +50,10 @@ function isValidNumber(n, base) {
 ### 💡 3. Handling Empty Strings
 ---
 One small "bug" in the current regex logic:
-isValidNumber("", 10) will return false because of the + (which means "one or more"). 
-If an empty string is considered "valid" (zero digits), you'd use *. 
-If a number must have at least one digit, your + is correct!
+
+`isValidNumber("", 10)` will return `false` because of the `+` (which means "one or more"). 
+If an empty string is considered "valid" (zero digits), you'd use `*`. 
+If a number must have at least one digit, your `+` is correct!
 
 A "Pro" Version (Clean & Optimized)
 If you want the most "robust" version of your own logic:
@@ -73,5 +74,6 @@ function isValidNumber(n, base) {
 ```
 
 ## 🏆 Final Verdict
+
 Your solution is great for a coding challenge.
 It shows you understand how to manipulate strings to feed a dynamic RegExp constructor.
