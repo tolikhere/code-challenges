@@ -87,6 +87,7 @@ CREATE_FOLDERS() {
 ADD_TEMPLATE() {
   echo -e "\nexport const ${FILE_NAME} = () => {\n\n};" >> $FILE_PATH
   # template for test files
+  echo "import { ${FILE_NAME} } from \"#${full_path}/${FILE_NAME}.js\";" >> $TEST_FILE_PATH
   echo "import { assertEquals } from \"#utils/assertEquals.js\";" >> $TEST_FILE_PATH
   echo "import { logGroup } from \"#utils/logGroup.js\";" >> $TEST_FILE_PATH
   # template for ai review files
