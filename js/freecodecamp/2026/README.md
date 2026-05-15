@@ -1,6 +1,6 @@
 # 🏆 2026 Challenge Log: FreeCodeCamp
 
-A collection of daily coding challenges, algorithms, and logic puzzles from FreeCodeCamp. Each entry includes my original solution, tests for them and an AI-powered code review to track my growth and refactoring process.
+A collection of daily coding challenges, algorithms, and logic puzzles from [FreeCodeCamp](https://www.freecodecamp.org). Each entry includes my original solution, tests for them and an AI-powered code review to track my growth and refactoring process.
 
 | Challenge Name | Status | Solution | AI Review | Test |
 | :--- | :--- | :--- | :--- | :--- |
