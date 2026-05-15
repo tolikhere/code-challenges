@@ -1,4 +1,5 @@
 # 📝 Code Challenges
+My central hub for coding challenges across different platforms, organized by year.
 
 ## 🎯 Project Description
 Every challenge in this repo includes:
@@ -6,6 +7,25 @@ Every challenge in this repo includes:
     - JSDoc Documentation for clear requirements and type-safety.
     - Custom Test Suite using a self-built assertion library that supports deep array equality.
     - Automated Execution via a Bash-based discovery script to ensure code reliability.
+    - AI-generated feedback to reflect on my solution.
+
+## 🧭 Navigation
+Navigate around different challenges from different platforms.
+
+### 📚 [FreeCodeCamp](https://www.freecodecamp.org)
+
+| Solution Folder | Year |
+| :--- | :--- |
+| [View](/js/freecodecamp/2026) | 2026 |
+
+---
+
+### 📚 [CodeWars](https://www.codewars.com)
+
+| Solution Folder | Kata Level | Year |
+| :--- | :--- | :--- |
+| [View](/js/codewars/8-kyu/2026) | 8 kyu | 2026 |
+
 
 ## 🛠️ Getting Started
 
