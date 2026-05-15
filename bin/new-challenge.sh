@@ -1,15 +1,18 @@
 #!/bin/bash
 
-# Creates a challenge file and a test file with the same filename.
+# Creates a challenge file, an ai review file and a test file with the same filename.
 # First choose a main folder then follow the instructions.
 # Don't write extension like ".js" at the end of a file the program will do this automatically.
 # Adds imports to test files.
 # Adds an export boilerplate function to the challenge file.
+# Adds a boilerplate for the ai review file
 
 readonly YEAR="2026"
-readonly MONTH="04"
+readonly MONTH="05"
+# base folders
 readonly BASE_PATH="js"
 readonly TEST_PATH="tests"
+readonly AI_REVIEW_PATH="ai-review"
 full_path=""
 
 MAIN_MENU() {
@@ -66,8 +69,11 @@ CREATE_FILES() {
     CREATE_FOLDERS
     readonly FILE_PATH="./${full_path}/${FILE_NAME}.js"
     readonly TEST_FILE_PATH="./${TEST_PATH}/${full_path}/${FILE_NAME}.test.js"
+    readonly AI_REVIEW_FILE_PATH="./${AI_REVIEW_PATH}/${full_path}/${FILE_NAME}.md"
+    # creating files
     touch $FILE_PATH
     touch $TEST_FILE_PATH
+    touch $AI_REVIEW_FILE_PATH
     ADD_TEMPLATE
   fi
 }
@@ -75,12 +81,21 @@ CREATE_FILES() {
 CREATE_FOLDERS() {
   mkdir -p "./${full_path}"
   mkdir -p "./${TEST_PATH}/${full_path}"
+  mkdir -p "./${AI_REVIEW_PATH}/${full_path}"
 }
 
 ADD_TEMPLATE() {
   echo -e "\nexport const ${FILE_NAME} = () => {\n\n};" >> $FILE_PATH
+  # template for test files
   echo "import { assertEquals } from \"#utils/assertEquals.js\";" >> $TEST_FILE_PATH
   echo "import { logGroup } from \"#utils/logGroup.js\";" >> $TEST_FILE_PATH
+  # template for ai review files
+  echo -e "# 📝 Review: Challenge_Name" >> $AI_REVIEW_FILE_PATH
+  echo -e "\n## ✨ What’s great about your solution:" >> $AI_REVIEW_FILE_PATH
+  echo -e "\n## 🛠 Refactoring Tips:" >> $AI_REVIEW_FILE_PATH
+  echo -e "\n### 💡 1. Tip_Name" >> $AI_REVIEW_FILE_PATH
+  echo "---" >> $AI_REVIEW_FILE_PATH
+  echo -e "\n## 🏆 Final Verdict" >> $AI_REVIEW_FILE_PATH
 }
 
 EXIT() {
