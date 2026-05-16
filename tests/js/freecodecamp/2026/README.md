@@ -9,6 +9,7 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Jbelmud Text**][jbelmudText] | ✅ Complete | [👨 View][jbelmudText.js] | [🤖 Read][jbelmudText.md] | [📚 View][jbelmudText.test.js] |
 | [**S  P  A  C  E  J  A  M**][spaceJam] | ✅ Complete | [👨 View][spaceJam.js] | [🤖 Read][spaceJam.md] | [📚 View][spaceJam.test.js] |
 | [**Vowel Balance**][vowelBalance] | ✅ Complete | [👨 View][vowelBalance.js] | [🤖 Read][vowelBalance.md] | [📚 View][vowelBalance.test.js] |
+| [**Anagram Checker**][anagramChecker] | ✅ Complete | [👨 View][anagramChecker.js] | [🤖 Read][anagramChecker.md] | [📚 View][anagramChecker.test.js] |
 
 
 [baseCheck]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-12
@@ -35,3 +36,8 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 [vowelBalance.js]: /js/freecodecamp/2026/04/vowelBalance.js
 [vowelBalance.test.js]: /tests/js/freecodecamp/2026/04/vowelBalance.test.js
 [vowelBalance.md]: /ai-review/js/freecodecamp/2026/04/vowelBalance.md
+
+[anagramChecker]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-16
+[anagramChecker.js]: /js/freecodecamp/2026/05/anagramChecker.js
+[anagramChecker.test.js]: /tests/js/freecodecamp/2026/05/anagramChecker.test.js
+[anagramChecker.md]: /ai-review/js/freecodecamp/2026/05/anagramChecker.md
