@@ -90,8 +90,8 @@ ADD_TEMPLATE() {
   echo "import { ${FILE_NAME} } from \"#${full_path}/${FILE_NAME}.js\";" >> $TEST_FILE_PATH
   echo "import { assertEquals } from \"#utils/assertEquals.js\";" >> $TEST_FILE_PATH
   echo "import { logGroup } from \"#utils/logGroup.js\";" >> $TEST_FILE_PATH
-  echo -e "\nconst testData = [{ expected: \"expectedData\", args: [] }]" >> $TEST_FILE_PATH
-  echo -e "\nlogGroup(\"Challenge name: Challenge_Name\", () => {testData.forEach((test) => assertEquals(test.expected, ${FILE_NAME}, test.args));});" >> $TEST_FILE_PATH
+  echo -e "\nconst testData = [{ expected: \"expectedData\", args: [] },{ expected: \"expectedData\", args: [] }]" >> $TEST_FILE_PATH
+  echo -e "\nlogGroup(\"Challenge name: Challenge_Name\", () => {testData.forEach((test) => assertEquals(test.expected, ${FILE_NAME}, ...test.args));});" >> $TEST_FILE_PATH
   # template for ai review files
   echo -e "# 📝 Review: Challenge_Name" >> $AI_REVIEW_FILE_PATH
   echo -e "\n## ✨ What’s great about your solution:" >> $AI_REVIEW_FILE_PATH
