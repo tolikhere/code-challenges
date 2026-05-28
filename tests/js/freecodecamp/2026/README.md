@@ -10,7 +10,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**S  P  A  C  E  J  A  M**][spaceJam] | ✅ Complete | [👨 View][spaceJam.js] | [🤖 Read][spaceJam.md] | [📚 View][spaceJam.test.js] |
 | [**Vowel Balance**][vowelBalance] | ✅ Complete | [👨 View][vowelBalance.js] | [🤖 Read][vowelBalance.md] | [📚 View][vowelBalance.test.js] |
 | [**Anagram Checker**][anagramChecker] | ✅ Complete | [👨 View][anagramChecker.js] | [🤖 Read][anagramChecker.md] | [📚 View][anagramChecker.test.js] |
+| [**Targeted Sum**][targetedSum] | ✅ Complete | [👨 View][targetedSum.js] | [🤖 Read][targetedSum.md] | [📚 View][targetedSum.test.js] |
 
+[targetedSum]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-17
+[targetedSum.js]: /js/freecodecamp/2026/05/targetedSum.js
+[targetedSum.test.js]: /tests/js/freecodecamp/2026/05/targetedSum.test.js
+[targetedSum.md]: /ai-review/js/freecodecamp/2026/05/targetedSum.md
 
 [baseCheck]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-12
 [baseCheck.js]: /js/freecodecamp/2026/04/baseCheck.js

@@ -13,8 +13,8 @@ function areAnagramsSort(str1, str2) {
 }
 ```
 #### 🚀 Performance Analysis:
-* **Time Complexity:** (O(Nlog N)) due to the sorting step.
-* **Space Complexity:** (O(N)) because it creates arrays and new strings in memory.
+* **Time Complexity:** **O(N log N)** due to the sorting step.
+* **Space Complexity:** **O(N)** because it creates arrays and new strings in memory.
 * **Pros:** Short and easy to read.
 * **Cons:** Slow for very long strings due to sorting.
 
@@ -48,5 +48,5 @@ function areAnagrams(str1, str2) {
 ```
 
 #### 🚀 Performance Analysis:
-* **Time Complexity:** (O(N)) — It loops through the strings exactly once.
-* **Space Complexity:** (O(1)) — The alphabet size is fixed, so the object memory stays small.
+* **Time Complexity:** **O(N)** — It loops through the strings exactly once.
+* **Space Complexity:** **O(1)** — The alphabet size is fixed, so the object memory stays small.
