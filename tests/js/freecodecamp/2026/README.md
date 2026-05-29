@@ -11,6 +11,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Vowel Balance**][vowelBalance] | ✅ Complete | [👨 View][vowelBalance.js] | [🤖 Read][vowelBalance.md] | [📚 View][vowelBalance.test.js] |
 | [**Anagram Checker**][anagramChecker] | ✅ Complete | [👨 View][anagramChecker.js] | [🤖 Read][anagramChecker.md] | [📚 View][anagramChecker.test.js] |
 | [**Targeted Sum**][targetedSum] | ✅ Complete | [👨 View][targetedSum.js] | [🤖 Read][targetedSum.md] | [📚 View][targetedSum.test.js] |
+| [**Factorializer**][factorializer] | ✅ Complete | [👨 View][factorializer.js] | [🤖 Read][factorializer.md] | [📚 View][factorializer.test.js] |
+
+[factorializer]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-18
+[factorializer.js]: /js/freecodecamp/2026/05/factorializer.js
+[factorializer.test.js]: /tests/js/freecodecamp/2026/05/factorializer.test.js
+[factorializer.md]: /ai-review/js/freecodecamp/2026/05/factorializer.md
 
 [targetedSum]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-17
 [targetedSum.js]: /js/freecodecamp/2026/05/targetedSum.js
