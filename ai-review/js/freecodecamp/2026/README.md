@@ -12,6 +12,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Anagram Checker**][anagramChecker] | ✅ Complete | [👨 View][anagramChecker.js] | [🤖 Read][anagramChecker.md] | [📚 View][anagramChecker.test.js] |
 | [**Targeted Sum**][targetedSum] | ✅ Complete | [👨 View][targetedSum.js] | [🤖 Read][targetedSum.md] | [📚 View][targetedSum.test.js] |
 | [**Factorializer**][factorializer] | ✅ Complete | [👨 View][factorializer.js] | [🤖 Read][factorializer.md] | [📚 View][factorializer.test.js] |
+| [**Sum of Squares**][sumOfSquares] | ✅ Complete | [👨 View][sumOfSquares.js] | [🤖 Read][sumOfSquares.md] | [📚 View][sumOfSquares.test.js] |
+
+[sumOfSquares]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-19
+[sumOfSquares.js]: /js/freecodecamp/2026/05/sumOfSquares.js
+[sumOfSquares.test.js]: /tests/js/freecodecamp/2026/05/sumOfSquares.test.js
+[sumOfSquares.md]: /ai-review/js/freecodecamp/2026/05/sumOfSquares.md
 
 [factorializer]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-18
 [factorializer.js]: /js/freecodecamp/2026/05/factorializer.js
