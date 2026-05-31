@@ -13,6 +13,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Targeted Sum**][targetedSum] | ✅ Complete | [👨 View][targetedSum.js] | [🤖 Read][targetedSum.md] | [📚 View][targetedSum.test.js] |
 | [**Factorializer**][factorializer] | ✅ Complete | [👨 View][factorializer.js] | [🤖 Read][factorializer.md] | [📚 View][factorializer.test.js] |
 | [**Sum of Squares**][sumOfSquares] | ✅ Complete | [👨 View][sumOfSquares.js] | [🤖 Read][sumOfSquares.md] | [📚 View][sumOfSquares.test.js] |
+| [**3 Strikes**][3Strikes] | ✅ Complete | [👨 View][3Strikes.js] | [🤖 Read][3Strikes.md] | [📚 View][3Strikes.test.js] |
+
+[3Strikes]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-20
+[3Strikes.js]: /js/freecodecamp/2026/05/3Strikes.js
+[3Strikes.test.js]: /tests/js/freecodecamp/2026/05/3Strikes.test.js
+[3Strikes.md]: /ai-review/js/freecodecamp/2026/05/3Strikes.md
 
 [sumOfSquares]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-19
 [sumOfSquares.js]: /js/freecodecamp/2026/05/sumOfSquares.js
