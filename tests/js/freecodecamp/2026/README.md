@@ -14,6 +14,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Factorializer**][factorializer] | ✅ Complete | [👨 View][factorializer.js] | [🤖 Read][factorializer.md] | [📚 View][factorializer.test.js] |
 | [**Sum of Squares**][sumOfSquares] | ✅ Complete | [👨 View][sumOfSquares.js] | [🤖 Read][sumOfSquares.md] | [📚 View][sumOfSquares.test.js] |
 | [**3 Strikes**][3Strikes] | ✅ Complete | [👨 View][3Strikes.js] | [🤖 Read][3Strikes.md] | [📚 View][3Strikes.test.js] |
+| [**Mile Pace**][milePace] | ✅ Complete | [👨 View][milePace.js] | [🤖 Read][milePace.md] | [📚 View][milePace.test.js] |
+
+[milePace]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-21
+[milePace.js]: /js/freecodecamp/2026/06/milePace.js
+[milePace.test.js]: /tests/js/freecodecamp/2026/06/milePace.test.js
+[milePace.md]: /ai-review/js/freecodecamp/2026/06/milePace.md
 
 [3Strikes]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-20
 [3Strikes.js]: /js/freecodecamp/2026/05/3Strikes.js

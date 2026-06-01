@@ -8,7 +8,7 @@
 # Adds a boilerplate for the ai review file
 
 readonly YEAR="2026"
-readonly MONTH="05"
+readonly MONTH="06"
 # base folders
 readonly BASE_PATH="js"
 readonly TEST_PATH="tests"
@@ -95,6 +95,9 @@ ADD_TEMPLATE() {
   # template for ai review files
   echo -e "# 📝 Review: Challenge_Name" >> $AI_REVIEW_FILE_PATH
   echo -e "\n## ✨ What’s great about your solution:" >> $AI_REVIEW_FILE_PATH
+  echo -e "\n### 🚀 Performance Analysis" >> $AI_REVIEW_FILE_PATH
+  echo "* **Time Complexity:** $ \mathcal{O}(1) $." >> $AI_REVIEW_FILE_PATH
+  echo "* **Space Complexity:** $ \mathcal{O}(1) $." >> $AI_REVIEW_FILE_PATH
   echo -e "\n## 🛠 Refactoring Tips:" >> $AI_REVIEW_FILE_PATH
   echo -e "\n### 💡 1. Tip_Name" >> $AI_REVIEW_FILE_PATH
   echo "---" >> $AI_REVIEW_FILE_PATH
