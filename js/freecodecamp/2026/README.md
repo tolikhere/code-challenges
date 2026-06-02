@@ -15,6 +15,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Sum of Squares**][sumOfSquares] | ✅ Complete | [👨 View][sumOfSquares.js] | [🤖 Read][sumOfSquares.md] | [📚 View][sumOfSquares.test.js] |
 | [**3 Strikes**][3Strikes] | ✅ Complete | [👨 View][3Strikes.js] | [🤖 Read][3Strikes.md] | [📚 View][3Strikes.test.js] |
 | [**Mile Pace**][milePace] | ✅ Complete | [👨 View][milePace.js] | [🤖 Read][milePace.md] | [📚 View][milePace.test.js] |
+| [**Message Decoder**][messageDecoder] | ✅ Complete | [👨 View][messageDecoder.js] | [🤖 Read][messageDecoder.md] | [📚 View][messageDecoder.test.js] |
+
+[messageDecoder]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-22
+[messageDecoder.js]: /js/freecodecamp/2026/06/messageDecoder.js
+[messageDecoder.test.js]: /tests/js/freecodecamp/2026/06/messageDecoder.test.js
+[messageDecoder.md]: /ai-review/js/freecodecamp/2026/06/messageDecoder.md
 
 [milePace]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-21
 [milePace.js]: /js/freecodecamp/2026/06/milePace.js
