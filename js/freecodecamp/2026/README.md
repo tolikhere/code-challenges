@@ -16,6 +16,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**3 Strikes**][3Strikes] | ✅ Complete | [👨 View][3Strikes.js] | [🤖 Read][3Strikes.md] | [📚 View][3Strikes.test.js] |
 | [**Mile Pace**][milePace] | ✅ Complete | [👨 View][milePace.js] | [🤖 Read][milePace.md] | [📚 View][milePace.test.js] |
 | [**Message Decoder**][messageDecoder] | ✅ Complete | [👨 View][messageDecoder.js] | [🤖 Read][messageDecoder.md] | [📚 View][messageDecoder.test.js] |
+| [**Unnatural Prime**][unnaturalPrime] | ✅ Complete | [👨 View][unnaturalPrime.js] | [🤖 Read][unnaturalPrime.md] | [📚 View][unnaturalPrime.test.js] |
+
+[unnaturalPrime]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-23
+[unnaturalPrime.js]: /js/freecodecamp/2026/06/unnaturalPrime.js
+[unnaturalPrime.test.js]: /tests/js/freecodecamp/2026/06/unnaturalPrime.test.js
+[unnaturalPrime.md]: /ai-review/js/freecodecamp/2026/06/unnaturalPrime.md
 
 [messageDecoder]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-22
 [messageDecoder.js]: /js/freecodecamp/2026/06/messageDecoder.js
