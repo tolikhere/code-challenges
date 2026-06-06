@@ -18,6 +18,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Message Decoder**][messageDecoder] | ✅ Complete | [👨 View][messageDecoder.js] | [🤖 Read][messageDecoder.md] | [📚 View][messageDecoder.test.js] |
 | [**Unnatural Prime**][unnaturalPrime] | ✅ Complete | [👨 View][unnaturalPrime.js] | [🤖 Read][unnaturalPrime.md] | [📚 View][unnaturalPrime.test.js] |
 | [**Character Battle**][characterBattle] | ✅ Complete | [👨 View][characterBattle.js] | [🤖 Read][characterBattle.md] | [📚 View][characterBattle.test.js] |
+| [**camelCase**][camelCase] | ✅ Complete | [👨 View][camelCase.js] | [🤖 Read][camelCase.md] | [📚 View][camelCase.test.js] |
+
+[camelCase]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-25
+[camelCase.js]: /js/freecodecamp/2026/06/camelCase.js
+[camelCase.test.js]: /tests/js/freecodecamp/2026/06/camelCase.test.js
+[camelCase.md]: /ai-review/js/freecodecamp/2026/06/camelCase.md
 
 [characterBattle]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-24
 [characterBattle.js]: /js/freecodecamp/2026/06/characterBattle.js
