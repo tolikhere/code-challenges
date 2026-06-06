@@ -5,9 +5,11 @@
  */
 export const logGroup = (message, callback) => {
   console.group(`\n${message}`);
+  console.time("Benchmark");
   try {
     callback();
   } finally {
+    console.timeEnd("Benchmark");
     console.groupEnd();
   }
 };
