@@ -96,8 +96,8 @@ ADD_TEMPLATE() {
   echo -e "# 📝 Review: Challenge_Name" >> $AI_REVIEW_FILE_PATH
   echo -e "\n## ✨ What’s great about your solution:" >> $AI_REVIEW_FILE_PATH
   echo -e "\n### 🚀 Performance Analysis" >> $AI_REVIEW_FILE_PATH
-  echo "* **Time Complexity:** $ \mathcal{O}(1) $." >> $AI_REVIEW_FILE_PATH
-  echo "* **Space Complexity:** $ \mathcal{O}(1) $." >> $AI_REVIEW_FILE_PATH
+  echo "* **Time Complexity:** $\mathcal{O}(N)$." >> $AI_REVIEW_FILE_PATH
+  echo "* **Space Complexity:** $\mathcal{O}(N)$." >> $AI_REVIEW_FILE_PATH
   echo -e "\n## 🛠 Refactoring Tips:" >> $AI_REVIEW_FILE_PATH
   echo -e "\n### 💡 1. Tip_Name" >> $AI_REVIEW_FILE_PATH
   echo "---" >> $AI_REVIEW_FILE_PATH
