@@ -19,6 +19,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Unnatural Prime**][unnaturalPrime] | ✅ Complete | [👨 View][unnaturalPrime.js] | [🤖 Read][unnaturalPrime.md] | [📚 View][unnaturalPrime.test.js] |
 | [**Character Battle**][characterBattle] | ✅ Complete | [👨 View][characterBattle.js] | [🤖 Read][characterBattle.md] | [📚 View][characterBattle.test.js] |
 | [**camelCase**][camelCase] | ✅ Complete | [👨 View][camelCase.js] | [🤖 Read][camelCase.md] | [📚 View][camelCase.test.js] |
+| [**Reverse Parenthesis**][reverseParenthesis] | ✅ Complete | [👨 View][reverseParenthesis.js] | [🤖 Read][reverseParenthesis.md] | [📚 View][reverseParenthesis.test.js] |
+
+[reverseParenthesis]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-26
+[reverseParenthesis.js]: /js/freecodecamp/2026/06/reverseParenthesis.js
+[reverseParenthesis.test.js]: /tests/js/freecodecamp/2026/06/reverseParenthesis.test.js
+[reverseParenthesis.md]: /ai-review/js/freecodecamp/2026/06/reverseParenthesis.md
 
 [camelCase]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-25
 [camelCase.js]: /js/freecodecamp/2026/06/camelCase.js
