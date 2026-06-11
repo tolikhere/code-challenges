@@ -31,7 +31,7 @@ export const evaluate = (numbers, operators) => {
     throw new Error("Provide numbers and operators in arrays");
   }
 
-  if (!operators.every((operator) => operator in calculator)) {
+  if (!operators.every((operator) => Object.hasOwn(calculator, operator))) {
     throw new Error("Provide valid operators: +, -, *, /, %");
   }
 
