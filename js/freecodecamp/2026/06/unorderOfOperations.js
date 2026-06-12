@@ -9,12 +9,25 @@ For example, given [1, 2, 3, 4, 5] and ['+', '*'], return the result of evaluati
     Valid operators are +, -, *, /, and %.
 */
 
+/**
+ * Truncates the tiny floating-point rounding errors.
+ * @param {number} num - Any Number.
+ * @returns Returns the rounded result at the 12th decimal place.
+ */
+const strip = (num) => Number.parseFloat(num.toFixed(12));
+
 const calculator = {
-  "+": (a, b) => a + b,
-  "-": (a, b) => a - b,
-  "*": (a, b) => a * b,
-  "/": (a, b) => a / b,
-  "%": (a, b) => a % b,
+  "+": (a, b) => strip(a + b),
+  "-": (a, b) => strip(a - b),
+  "*": (a, b) => strip(a * b),
+  "/": (a, b) => {
+    if (b === 0) throw new RangeError("Division by zero");
+    return strip(a / b);
+  },
+  "%": (a, b) => {
+    if (b === 0) throw new RangeError("Modulo by zero");
+    return strip(a % b);
+  },
 };
 
 /**
