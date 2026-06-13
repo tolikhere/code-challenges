@@ -20,6 +20,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Character Battle**][characterBattle] | ✅ Complete | [👨 View][characterBattle.js] | [🤖 Read][characterBattle.md] | [📚 View][characterBattle.test.js] |
 | [**camelCase**][camelCase] | ✅ Complete | [👨 View][camelCase.js] | [🤖 Read][camelCase.md] | [📚 View][camelCase.test.js] |
 | [**Reverse Parenthesis**][reverseParenthesis] | ✅ Complete | [👨 View][reverseParenthesis.js] | [🤖 Read][reverseParenthesis.md] | [📚 View][reverseParenthesis.test.js] |
+| [**Unorder of Operations**][unorderOfOperations] | ✅ Complete | [👨 View][unorderOfOperations.js] | [🤖 Read][unorderOfOperations.md] | [📚 View][unorderOfOperations.test.js] |
+
+[unorderOfOperations]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-27
+[unorderOfOperations.js]: /js/freecodecamp/2026/06/unorderOfOperations.js
+[unorderOfOperations.test.js]: /tests/js/freecodecamp/2026/06/unorderOfOperations.test.js
+[unorderOfOperations.md]: /ai-review/js/freecodecamp/2026/06/unorderOfOperations.md
 
 [reverseParenthesis]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-26
 [reverseParenthesis.js]: /js/freecodecamp/2026/06/reverseParenthesis.js
