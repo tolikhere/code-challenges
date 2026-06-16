@@ -21,6 +21,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**camelCase**][camelCase] | ✅ Complete | [👨 View][camelCase.js] | [🤖 Read][camelCase.md] | [📚 View][camelCase.test.js] |
 | [**Reverse Parenthesis**][reverseParenthesis] | ✅ Complete | [👨 View][reverseParenthesis.js] | [🤖 Read][reverseParenthesis.md] | [📚 View][reverseParenthesis.test.js] |
 | [**Unorder of Operations**][unorderOfOperations] | ✅ Complete | [👨 View][unorderOfOperations.js] | [🤖 Read][unorderOfOperations.md] | [📚 View][unorderOfOperations.test.js] |
+| [**Second Best**][secondBest] | ✅ Complete | [👨 View][secondBest.js] | [🤖 Read][secondBest.md] | [📚 View][secondBest.test.js] |
+
+[secondBest]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-28
+[secondBest.js]: /js/freecodecamp/2026/06/secondBest.js
+[secondBest.test.js]: /tests/js/freecodecamp/2026/06/secondBest.test.js
+[secondBest.md]: /ai-review/js/freecodecamp/2026/06/secondBest.md
 
 [unorderOfOperations]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-27
 [unorderOfOperations.js]: /js/freecodecamp/2026/06/unorderOfOperations.js
