@@ -72,3 +72,7 @@ You could technically achieve $O(1)$ space by adding complex tracking checks ins
 
 ## 🏆 Final Verdict
 Your micro-optimization instincts were right. You managed to avoid the O(N) memory overhead of a `Set` while keeping the solution completely bounded at $O(N)$ Time and $O(1)$ Space. Your flag logic perfectly maps to the three criteria listed in the freeCodeCamp description.
+
+## 🤔💭 My thoughts
+
+I think it's overhead to use `Set` or any other array methods or `Math` methods, because they would add more **Time** and **Space Complexity** to a simple solution. It can stay readable and concise with just one loop because if I use for example `Set` constructor function then it won't give me any advantages as I use it only for iteration purpose only and no where else. So I think I made the right decision.
