@@ -22,6 +22,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Reverse Parenthesis**][reverseParenthesis] | ✅ Complete | [👨 View][reverseParenthesis.js] | [🤖 Read][reverseParenthesis.md] | [📚 View][reverseParenthesis.test.js] |
 | [**Unorder of Operations**][unorderOfOperations] | ✅ Complete | [👨 View][unorderOfOperations.js] | [🤖 Read][unorderOfOperations.md] | [📚 View][unorderOfOperations.test.js] |
 | [**Second Best**][secondBest] | ✅ Complete | [👨 View][secondBest.js] | [🤖 Read][secondBest.md] | [📚 View][secondBest.test.js] |
+| [**Candlelight**][candlelight] | ✅ Complete | [👨 View][candlelight.js] | [🤖 Read][candlelight.md] | [📚 View][candlelight.test.js] |
+
+[candlelight]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-29
+[candlelight.js]: /js/freecodecamp/2026/06/candlelight.js
+[candlelight.test.js]: /tests/js/freecodecamp/2026/06/candlelight.test.js
+[candlelight.md]: /ai-review/js/freecodecamp/2026/06/candlelight.md
 
 [secondBest]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-28
 [secondBest.js]: /js/freecodecamp/2026/06/secondBest.js
