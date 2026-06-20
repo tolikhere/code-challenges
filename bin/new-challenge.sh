@@ -85,7 +85,7 @@ CREATE_FOLDERS() {
 }
 
 ADD_TEMPLATE() {
-  echo -e "\nexport const ${FILE_NAME} = () => {\n\n};" >> $FILE_PATH
+  echo -e "\nexport function ${FILE_NAME}() {\n\n}" >> $FILE_PATH
   # template for test files
   echo "import { ${FILE_NAME} } from \"#${full_path}/${FILE_NAME}.js\";" >> $TEST_FILE_PATH
   echo "import { assertEquals } from \"#utils/assertEquals.js\";" >> $TEST_FILE_PATH
@@ -96,12 +96,13 @@ ADD_TEMPLATE() {
   echo -e "# 📝 Review: Challenge_Name" >> $AI_REVIEW_FILE_PATH
   echo -e "\n## ✨ What’s great about your solution:" >> $AI_REVIEW_FILE_PATH
   echo -e "\n### 🚀 Performance Analysis" >> $AI_REVIEW_FILE_PATH
-  echo "* **Time Complexity:** $\mathcal{O}(N)$." >> $AI_REVIEW_FILE_PATH
-  echo "* **Space Complexity:** $\mathcal{O}(N)$." >> $AI_REVIEW_FILE_PATH
+  echo "* **Time Complexity:** \$O(N)$." >> $AI_REVIEW_FILE_PATH
+  echo "* **Space Complexity:** \$O(N)$." >> $AI_REVIEW_FILE_PATH
   echo -e "\n## 🛠 Refactoring Tips:" >> $AI_REVIEW_FILE_PATH
   echo -e "\n### 💡 1. Tip_Name" >> $AI_REVIEW_FILE_PATH
   echo "---" >> $AI_REVIEW_FILE_PATH
   echo -e "\n## 🏆 Final Verdict" >> $AI_REVIEW_FILE_PATH
+  echo -e "\n## 🤔💭 My thoughts" >> $AI_REVIEW_FILE_PATH
 }
 
 EXIT() {
