@@ -23,6 +23,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Unorder of Operations**][unorderOfOperations] | ✅ Complete | [👨 View][unorderOfOperations.js] | [🤖 Read][unorderOfOperations.md] | [📚 View][unorderOfOperations.test.js] |
 | [**Second Best**][secondBest] | ✅ Complete | [👨 View][secondBest.js] | [🤖 Read][secondBest.md] | [📚 View][secondBest.test.js] |
 | [**Candlelight**][candlelight] | ✅ Complete | [👨 View][candlelight.js] | [🤖 Read][candlelight.md] | [📚 View][candlelight.test.js] |
+| [**Array Duplicates**][arrayDuplicates] | ✅ Complete | [👨 View][arrayDuplicates.js] | [🤖 Read][arrayDuplicates.md] | [📚 View][arrayDuplicates.test.js] |
+
+[arrayDuplicates]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-30
+[arrayDuplicates.js]: /js/freecodecamp/2026/06/arrayDuplicates.js
+[arrayDuplicates.test.js]: /tests/js/freecodecamp/2026/06/arrayDuplicates.test.js
+[arrayDuplicates.md]: /ai-review/js/freecodecamp/2026/06/arrayDuplicates.md
 
 [candlelight]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-29
 [candlelight.js]: /js/freecodecamp/2026/06/candlelight.js
