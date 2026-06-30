@@ -12,15 +12,15 @@ Given an array of integers, return an array of integers that appear more than on
  */
 export function findDuplicates(arr) {
   const duplicates = new Set();
-  const allUniqueNumbers = new Set();
+  const seen = new Set();
 
   for (const number of arr) {
-    if (allUniqueNumbers.has(number)) {
+    if (seen.has(number)) {
       duplicates.add(number);
       continue;
     }
 
-    allUniqueNumbers.add(number);
+    seen.add(number);
   }
   return [...duplicates].sort((a, b) => a - b);
 }
