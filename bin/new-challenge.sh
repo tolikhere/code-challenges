@@ -8,7 +8,7 @@
 # Adds a boilerplate for the ai review file
 
 readonly YEAR="2026"
-readonly MONTH="06"
+readonly MONTH="07"
 # base folders
 readonly BASE_PATH="js"
 readonly TEST_PATH="tests"
