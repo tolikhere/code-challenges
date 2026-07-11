@@ -25,6 +25,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Candlelight**][candlelight] | ✅ Complete | [👨 View][candlelight.js] | [🤖 Read][candlelight.md] | [📚 View][candlelight.test.js] |
 | [**Array Duplicates**][arrayDuplicates] | ✅ Complete | [👨 View][arrayDuplicates.js] | [🤖 Read][arrayDuplicates.md] | [📚 View][arrayDuplicates.test.js] |
 | [**Hex Generator**][hexGenerator] | ✅ Complete | [👨 View][hexGenerator.js] | [🤖 Read][hexGenerator.md] | [📚 View][hexGenerator.test.js] |
+| [**Tribonacci Sequence**][tribonacciSequence] | ✅ Complete | [👨 View][tribonacciSequence.js] | [🤖 Read][tribonacciSequence.md] | [📚 View][tribonacciSequence.test.js] |
+
+[tribonacciSequence]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-01
+[tribonacciSequence.js]: /js/freecodecamp/2026/07/tribonacciSequence.js
+[tribonacciSequence.test.js]: /tests/js/freecodecamp/2026/07/tribonacciSequence.test.js
+[tribonacciSequence.md]: /ai-review/js/freecodecamp/2026/07/tribonacciSequence.md
 
 [hexGenerator]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-31
 [hexGenerator.js]: /js/freecodecamp/2026/07/hexGenerator.js
