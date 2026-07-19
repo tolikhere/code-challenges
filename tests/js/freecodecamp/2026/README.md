@@ -27,6 +27,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Hex Generator**][hexGenerator] | ✅ Complete | [👨 View][hexGenerator.js] | [🤖 Read][hexGenerator.md] | [📚 View][hexGenerator.test.js] |
 | [**Tribonacci Sequence**][tribonacciSequence] | ✅ Complete | [👨 View][tribonacciSequence.js] | [🤖 Read][tribonacciSequence.md] | [📚 View][tribonacciSequence.test.js] |
 | [**RGB to Hex**][rgbToHex] | ✅ Complete | [👨 View][rgbToHex.js] | [🤖 Read][rgbToHex.md] | [📚 View][rgbToHex.test.js] |
+| [**Pangram**][pangram] | ✅ Complete | [👨 View][pangram.js] | [🤖 Read][pangram.md] | [📚 View][pangram.test.js] |
+
+[pangram]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-03
+[pangram.js]: /js/freecodecamp/2026/07/pangram.js
+[pangram.test.js]: /tests/js/freecodecamp/2026/07/pangram.test.js
+[pangram.md]: /ai-review/js/freecodecamp/2026/07/pangram.md
 
 [rgbToHex]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-02
 [rgbToHex.js]: /js/freecodecamp/2026/07/rgbToHex.js
