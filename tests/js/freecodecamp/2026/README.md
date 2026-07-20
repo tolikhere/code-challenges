@@ -28,6 +28,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Tribonacci Sequence**][tribonacciSequence] | ✅ Complete | [👨 View][tribonacciSequence.js] | [🤖 Read][tribonacciSequence.md] | [📚 View][tribonacciSequence.test.js] |
 | [**RGB to Hex**][rgbToHex] | ✅ Complete | [👨 View][rgbToHex.js] | [🤖 Read][rgbToHex.md] | [📚 View][rgbToHex.test.js] |
 | [**Pangram**][pangram] | ✅ Complete | [👨 View][pangram.js] | [🤖 Read][pangram.md] | [📚 View][pangram.test.js] |
+| [**Vowel Repeater**][vowelRepeater] | ✅ Complete | [👨 View][vowelRepeater.js] | [🤖 Read][vowelRepeater.md] | [📚 View][vowelRepeater.test.js] |
+
+[vowelRepeater]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-04
+[vowelRepeater.js]: /js/freecodecamp/2026/07/vowelRepeater.js
+[vowelRepeater.test.js]: /tests/js/freecodecamp/2026/07/vowelRepeater.test.js
+[vowelRepeater.md]: /ai-review/js/freecodecamp/2026/07/vowelRepeater.md
 
 [pangram]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-03
 [pangram.js]: /js/freecodecamp/2026/07/pangram.js
