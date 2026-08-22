@@ -30,6 +30,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Pangram**][pangram] | ✅ Complete | [👨 View][pangram.js] | [🤖 Read][pangram.md] | [📚 View][pangram.test.js] |
 | [**Vowel Repeater**][vowelRepeater] | ✅ Complete | [👨 View][vowelRepeater.js] | [🤖 Read][vowelRepeater.md] | [📚 View][vowelRepeater.test.js] |
 | [**IPv4 Validator**][ipV4Validator] | ✅ Complete | [👨 View][ipV4Validator.js] | [🤖 Read][ipV4Validator.md] | [📚 View][ipV4Validator.test.js] |
+| [**Matrix Rotate**][matrixRotate] | ✅ Complete | [👨 View][matrixRotate.js] | [🤖 Read][matrixRotate.md] | [📚 View][matrixRotate.test.js] |
+
+[matrixRotate]: https://www.freecodecamp.org/learn/daily-coding-challenge/09-06
+[matrixRotate.js]: /js/freecodecamp/2026/08/matrixRotate.js
+[matrixRotate.test.js]: /tests/js/freecodecamp/2026/08/matrixRotate.test.js
+[matrixRotate.md]: /ai-review/js/freecodecamp/2026/08/matrixRotate.md
 
 [ipV4Validator]: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-05
 [ipV4Validator.js]: /js/freecodecamp/2026/07/ipV4Validator.js
