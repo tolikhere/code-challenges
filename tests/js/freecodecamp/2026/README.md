@@ -31,6 +31,12 @@ A collection of daily coding challenges, algorithms, and logic puzzles from [Fre
 | [**Vowel Repeater**][vowelRepeater] | ✅ Complete | [👨 View][vowelRepeater.js] | [🤖 Read][vowelRepeater.md] | [📚 View][vowelRepeater.test.js] |
 | [**IPv4 Validator**][ipV4Validator] | ✅ Complete | [👨 View][ipV4Validator.js] | [🤖 Read][ipV4Validator.md] | [📚 View][ipV4Validator.test.js] |
 | [**Matrix Rotate**][matrixRotate] | ✅ Complete | [👨 View][matrixRotate.js] | [🤖 Read][matrixRotate.md] | [📚 View][matrixRotate.test.js] |
+| [**Roman Numeral Parser**][romanNumeralParser] | ✅ Complete | [👨 View][romanNumeralParser.js] | [🤖 Read][romanNumeralParser.md] | [📚 View][romanNumeralParser.test.js] |
+
+[romanNumeralParser]: https://www.freecodecamp.org/learn/daily-coding-challenge/09-07
+[romanNumeralParser.js]: /js/freecodecamp/2026/09/romanNumeralParser.js
+[romanNumeralParser.test.js]: /tests/js/freecodecamp/2026/09/romanNumeralParser.test.js
+[romanNumeralParser.md]: /ai-review/js/freecodecamp/2026/09/romanNumeralParser.md
 
 [matrixRotate]: https://www.freecodecamp.org/learn/daily-coding-challenge/09-06
 [matrixRotate.js]: /js/freecodecamp/2026/08/matrixRotate.js
